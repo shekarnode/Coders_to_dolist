@@ -1,0 +1,11 @@
+body{
+background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.panel{
+  margin-top: 50px;
+  /* opacity: 0.8; */
+  box-shadow: 1px 5px 1px 3px #4a4a4a;
+}
