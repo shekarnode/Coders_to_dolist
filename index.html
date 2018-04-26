@@ -6,37 +6,45 @@
   <title>Code Task List</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
 </head>
 
 <body>
 
   <div class="container">
-
-
-
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title">Task List</h3>
       </div>
       <div class="panel-body">
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search for...">
+          <input type="text" class="form-control" placeholder="I have to do...">
           <span class="input-group-btn">
-            <button class="btn btn-default" type="submit">ADD</button>
+            <button class="btn btn-default" type="submit"><i class="fas fa-plus"></i></button>
           </span>
         </div>
-        <!-- <ul>
-        <li>
-
-        </li>
-      </ul> -->
       </div>
-      <div class="panel-footer">
-
-      </div>
+      <ul class="list-group">
+        <li class="list-group-item"> <span style="float:right">
+          <button class="btn btn-danger btn-xs">
+            <i class="fas fa-times-circle"></i>
+          </button>
+        </span>First Todo List..</li>
+        <li class="list-group-item"> <span style="float:right">
+          <button class="btn btn-danger btn-xs">
+            <i class="fas fa-times-circle"></i>
+          </button>
+        </span>First Todo List..</li>
+        <li class="list-group-item"> <span style="float:right">
+          <button class="btn btn-danger btn-xs">
+            <i class="fas fa-times-circle"></i>
+          </button>
+        </span>First Todo List..</li>
+      </ul>
     </div>
   </div>
-
 
   <script src="js/angular/angular.min.js" charset="utf-8"></script>
   <script src="app/app.js" charset="utf-8"></script>

@@ -2,10 +2,39 @@ body{
 background: #ff00cc;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Bree Serif', serif;
 }
 
 .panel{
   margin-top: 50px;
   /* opacity: 0.8; */
-  box-shadow: 1px 5px 1px 3px #4a4a4a;
+  /* box-shadow: 1px 5px 1px 3px #4a4a4a; */
+}
+
+.panel-default > .panel-heading {
+  color: #fff;
+  /*! background-color: #de5c5c; */
+  /*! border-color: #b42727; */
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
+  border-color: #757171
+}
+
+.panel-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: inherit;
+}
+
+.panel-default {
+  border-color: #000;
+}
+
+.panel-body {
+    padding: 15px;
+    background: #485563;
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    background: linear-gradient(to right, #29323c, #485563);
 }
